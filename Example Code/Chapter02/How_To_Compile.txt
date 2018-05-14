@@ -1,0 +1,15 @@
+Open your terminal, go to the directory with the c file you wish to compiler
+(% indicates UNIX terminal)
+
+Unix c compiler:
+
+    Syntax:
+        % cc -options outoputFilename inputFilename
+
+    Example:
+        % cc -o pun pun.c
+
+    Result:
+        pun file that is executable
+
+
