@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * Example Program from C Programming a modern Approach by K. N. King
- * 2.1 Pg. 10
- * Readers first program, simple output message 
+ * Name:    pun.c
+ * Date:    2018 05 14
+ * Author:  trittg
+ * Section: 2.1 Pg. 10
+ * Purpose: Readers first program, simple output message  
  */
 
 /*

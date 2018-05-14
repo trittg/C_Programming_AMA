@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * Example Program from C Programming a modern Approach by K. N. King
- * 2.2 Pg. 15
- * Simple output message showing that the \n special character can be applied 
- * more than once and inbetween a string literal.
+ * Name:    shakespeare.c
+ * Date:    2018 05 14
+ * Author:  trittg
+ * Section: 2.2 Pg. 15
+ * Purpose: Simple output message showing that the \n special character can be
+ * applied more than once and inbetween a string literal.
  */
 
 int main(void)
