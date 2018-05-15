@@ -1,0 +1,26 @@
+05. 100_bottles is not a legal identifier in C because it does not begin with 
+    a letter
+
+06. It is not a good idea for an identifier to contain more than one adjacent
+    underscore becuase its diminishes readablity, at a glance its hard to tell
+    exactly how many underscores are being grouped together.
+
+07. Keywords:
+        a) for
+        e) while
+
+08. answer=(3*q-p*p)/3;
+    answer  =   (   3   *   q   -   p   *   p   )   /   3   ;
+    1       2   3   4   5   6   7   8   9   10  11  12  13  14
+    14 total tokens
+    Identifiers:    1, 6, 8, 10, 
+    Operators:      2, 5, 7, 9, 12
+    Punctuation:    3, 11, 14
+    Integer Literal:4, 13
+
+09. answer = ( 3 * q - p * p ) / 3;
+
+10. The essential spaces in dimensionalWeight.c are:
+    1. The line break after the #include directive and the main function
+    2. The space between the int declaration and the variable name
+    
