@@ -1,12 +1,14 @@
 #include <stdio.h>
 /**
  * Name:    08.c
- * Date:    2018 05 15
+ * Date:    2018 05 16
  * Author:  trittg
  * Project: 2.8 Pg. 35
  * Purpose: Calculate the remaining balance on a loan after the first second
  *          and third payments
  */
+
+// Note: my results don't line up with the text books
 
 int main(void)
 {

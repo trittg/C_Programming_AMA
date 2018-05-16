@@ -1,0 +1,22 @@
+01. What is the output? ("-" represents whitespace)
+    a) ----86, 1040
+    b) ----3.02530e+01
+    c) 83.1620
+    d) 1e-06-
+
+02. Write the function call
+    a) printf("%-8.1e\n", x);
+    b) printf("%10.6e\n", x);
+    c) printf("%-8.3f\n", x);
+    d) printf("%6.0f\n", x);
+
+03. Are the scanf strings equivalent?
+    a) The strings are equivalent, scanf ignores the whitespace before the int
+    b) The strings are equivalent, scanf ignores the whitespace before the ints
+    c) The strings are not equivalent, the second scanf looks for another input
+    d) The strings are not equivalent, the second scanf looks for another input
+
+04. i = 10, j = 0.3 j = 5
+
+05. x = 12.3, i = 45, y = .6
+

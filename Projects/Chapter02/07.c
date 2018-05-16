@@ -6,7 +6,7 @@
 
 /**
  * Name:    07.c
- * Date:    2018 05 15
+ * Date:    2018 05 16
  * Author:  trittg
  * Project: 2.7 Pg. 34
  * Purpose: User inputs a dollar amount
