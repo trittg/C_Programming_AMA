@@ -1,0 +1,107 @@
+***Question 3-6, answers taken from 
+https://github.com/fordea/c-programming-a-modern-approach/tree/master/ch04/Exercises
+***
+
+
+01. Show the output
+    a) 1, 2
+    b) 0
+    c) 1
+    d) 0
+
+02. If i and j are positive integers, does (-i)/j always have the same value as
+    -(i/j)?
+    Yes, given the nature of division and signs.  In the first case a neg number
+    is being divided by a pos number, the result will be negative
+    In the second case the positive result of the division is then changed to 
+    neg.  The value will be the same becuase it is the same numbers being
+    divided and the signs will match aswell
+
+03. Division in C89
+    Division in C89 when the divisor and/or dividend is negative is 
+    implementation defined. This means the result may either be rounded toward 0
+    or negative infinity depending on the hardware / software implemented 
+    behaviour.
+    a)  8 / 5 =  1  //1.6 if not integers
+    b) -8 / 5 = -1 or -2
+    c)  8 /-5 = -1 or -2
+    d) -8 /-5 =  1 or  2
+
+04. Division in C99
+    Division in C99 explicity rounds the result of division towards 0 when the
+    divisor and/or dividend is negative.
+    a)  8 / 5 =  1
+    b) -8 / 5 = -1
+    c)  8 /-5 = -1
+    d) -8 /-5 =  1
+
+05. Modulo in C89
+    C89's modulo operator is implementation defined, and therefore the result 
+    can either be positive or negative.
+    a)  8 % 5 =  3
+    b) -8 % 5 = -3 or 2
+    c)  8 %-5 = -3 or 2
+    d) -8 %-5 = -3 or 2
+
+06. Modulo in C99
+    C99's modulo operator is specified to always have the same sign as the 
+    divisor, and the division operator will always truncate the result towards 0 
+    a)  8 % 5 =  3
+    b) -8 % 5 = -3 
+    c)  8 %-5 =  3
+    d) -8 %-5 = -3
+
+07. Shorcut the UPC algorithm with % possible?
+    Original    = 9 - ((total - 1) % 10)
+    New         = 10 - (total % 10)
+    It doesn't work becuase you get a different divisor for the proposed 
+    solution wich will produce a different result.
+
+08. Yes the upc.c program will still work if the lines were replaced,
+    see exercise code.
+
+09. Show the output
+    a) 63, 8
+    b) 3, 2, 1
+    c) 2, 1, 3
+    d) 0, 0, 0
+
+10. Show the output
+    a) i = 12, j = 12
+    b) i = 3,  j = 4
+    c) i = 2,  j = 8
+    d) i = 6,  j = 9
+
+11. Show the output
+    a) 0 1
+    b) 4 11 6
+    c) 0 8 7
+    d) 3 4 5 4
+
+12. Show the output
+    a) 6, 16
+    b) 6, -7
+    c) 6, 23
+    d) 6, 15
+
+13. ++i is exactly the same as i += 1, this is becuase they both increment the
+i value by 1 immediately and can be used by other operators.  In contrast the 
+i++ increments the value sometime later, while other operators would use
+the unincremented i value immediately.
+
+14. Supply parenthesis to show order of operations
+    a) (((a * b) - (c * d)) + e)
+    b) (((a / b) % c) / d) 
+    c) ((((- a) - b) + c) - (+ d)) 
+    d) (((a * (- b)) / c) - d) 
+
+15. Give the values of i and j
+    i = 1, j = 2
+    a) i += j;
+        i = 3, j = 2 
+    b) i--;
+        i = 0, j = 2
+    c) i + j / i;
+        i = 1, j = 2
+    d) i % ++j;
+        i = 1, j = 3
