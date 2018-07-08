@@ -1,0 +1,78 @@
+01. Relational and equality operators, show the output
+    a) 1
+    b) 1
+    c) 1
+    d) 0
+
+02. Logical operators, show the output.
+    a) 1
+    b) 1
+    c) 1
+    d) 1
+
+03. Short circuit behaviors of logical expressions, show the output.
+    a) 1 3 4 5
+    b) 0 7 8 9
+    c) 1 8 9 9
+    d) 1 2 1 1
+
+04. Write a single expression to satisfy the conditions.
+    int i, j, result;
+    result = (i > j) - (i < j);
+    Less than: i = 1, j = 2
+              (1 > 2)-(1 < 2)
+                 0       1
+                    -1
+    Equal to: i = 1, j = 1
+              (1 > 1)-(1 < 1)
+                 0   -   0
+                     0
+    Greater than: i = 2, j = 1
+              (2 > 1)-(2 < 1)
+                 1   -   0
+                     1
+
+05. Is the if statement legal? Result if n = 0?
+    The statement is legal, when n = 0 it will print
+    "n is between 1 and 10"
+
+06. Is the if statement legal? Result if n = 5?
+    The statement is legal, when n = 5 it will not print anything.
+
+07. printf("%d\n", i >=0 ? i : -i);
+    if i = 17 then output: 17
+    if i =-17 else output: 17
+
+08. Simplify code to one line.
+    teenager = age >= 13 && age <=19;
+
+09. Yes they are equivalent becuase they essentially test the same conditions, 
+    the second one just tests in reverse.  The same input will result in the
+    same output for both if statements.
+
+10. Show the output.
+    onetwo
+
+11. Write a switch statement for area code and cities.
+    int areaCode;
+    switch (areaCode) {
+        case 229:
+            printf("Albany");
+            break;
+        case 404: case 470: case 678: case 770:
+            printf("Atlanta");
+            break;
+        case 478:
+            printf("Macon");
+            break;
+        case 706: case 762:
+            printf("Columbus");
+            break;
+        case 912:
+            printf("Savannah");
+            break;
+        default:
+            printf("Area code not recognized");
+            break;
+    }
+
